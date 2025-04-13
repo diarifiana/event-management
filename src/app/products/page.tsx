@@ -12,9 +12,9 @@ interface Product {
 }
 
 export default async function UsersPage() {
-  let data = await fetch("http://localhost:8000/products");
-  let json = await data.json();
-  let products = json.data;
+  const data = await fetch("http://localhost:8000/products");
+  const json = await data.json();
+  const products = json.data;
 
   return (
     <ul>
