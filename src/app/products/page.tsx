@@ -1,11 +1,11 @@
 interface Product {
   id: number;
-  name: string;
+  productName: string;
   price: number;
   stock: number;
-  storeId: number;
+  merchantId: number;
   slug: string;
-  store: number;
+  merchant: number;
   createdAt: Date;
   updatedAt: Date;
   deletedAt: Date;
@@ -19,7 +19,7 @@ export default async function UsersPage() {
   return (
     <ul>
       {products.map((product: Product) => (
-        <li key={product.id}>{product.name}</li>
+        <li key={product.id}>{product.productName}</li>
       ))}
     </ul>
   );
