@@ -1,5 +1,5 @@
-import EventCard from "./components/(events)/EventCard";
-import Jumbotron from "./components/Jumbotron";
+import EventCard from "./_components/(events)/EventCard";
+import Jumbotron from "./_components/Jumbotron";
 
 export default function Page() {
   return (
