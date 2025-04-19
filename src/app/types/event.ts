@@ -4,7 +4,7 @@ export default interface Event {
   organizerId: number;
   slug: string;
   name: string;
-  description: string;
+  desc: string;
   startDate: Date;
   endDate: Date;
   location: string;
