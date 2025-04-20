@@ -1,4 +1,4 @@
-import Category from "@/app/types/category";
+import Category from "@/app/types/Category";
 
 export default async function CategoriesList() {
   const data = await fetch("http://localhost:8000/categories");
