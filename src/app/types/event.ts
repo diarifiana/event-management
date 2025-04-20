@@ -1,7 +1,11 @@
+import Organizer from "./organizer";
+import Ticket from "./ticket";
+
 export default interface Event {
   id: number;
   categoryId: number;
   organizerId: number;
+  organizer: Organizer[];
   slug: string;
   name: string;
   desc: string;
@@ -12,4 +16,5 @@ export default interface Event {
   createdAt: Date;
   updatedAt: Date;
   deletedAt: Date;
+  tickets: Ticket[];
 }

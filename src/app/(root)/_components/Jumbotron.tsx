@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Jumbotron() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between gap-6 px-8 py-16 shadow-lg bg-[url(/event-dinner.avif)] bg-cover bg-center h-[30vh]">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-6 px-8 py-16 shadow-lg bg-[url(/event-dinner.avif)] bg-cover bg-center h-[30vh] md:h-[50vh]">
       <h1 className="text-2xl md:text-5xl font-bold text-white text-center md:text-left max-w-md">
         SECURE YOUR TICKET NOW
       </h1>
