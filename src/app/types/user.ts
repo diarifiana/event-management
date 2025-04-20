@@ -1,7 +1,7 @@
-import { Role } from "./Role";
 import { Organizer } from "./Organizer";
-import { ReferralCoupon } from "./ReferralCoupon";
 import { PointDetail } from "./PointDetail";
+import { ReferralCoupon } from "./ReferralCoupon";
+import { Role } from "./Role";
 import { Transaction } from "./Transaction";
 
 export interface User {
