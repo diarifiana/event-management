@@ -1,4 +1,4 @@
-import { Event } from "./Event";
+import { Event } from "./event";
 import { Transaction } from "./Transaction";
 
 export interface Voucher {

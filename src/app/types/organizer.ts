@@ -1,13 +1,13 @@
 import { Event } from "./event";
-import User from "./User";
+import { User } from "./User";
 
-export default interface Organizer {
+export interface Organizer {
   id: number;
   userId: number;
-  user: User[];
+  user: User;
   name: string;
-  aboutUs: string;
-  profilePic: string;
+  aboutUs?: string;
+  profilePic?: string;
   createdAt: Date;
   updatedAt: Date;
   isDeleted: boolean;

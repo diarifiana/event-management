@@ -1,8 +1,8 @@
+import { User } from "./User";
+import { Ticket } from "./Ticket";
 import { ReferralCoupon } from "./ReferralCoupon";
 import { Voucher } from "./Voucher";
 import { Status } from "./Status";
-import { User } from "./User";
-import { Ticket } from "./Ticket";
 import { Review } from "./Review";
 
 export interface Transaction {

@@ -1,5 +1,5 @@
-import { Transaction } from "./Transaction";
 import { User } from "./User";
+import { Transaction } from "./Transaction";
 
 export interface ReferralCoupon {
   id: number;
