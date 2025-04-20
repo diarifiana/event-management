@@ -1,7 +1,7 @@
 import { ReferralCoupon } from "./ReferralCoupon";
 import { Voucher } from "./Voucher";
 import { Status } from "./Status";
-import { User } from "./user";
+import { User } from "./User";
 import { Ticket } from "./Ticket";
 import { Review } from "./Review";
 

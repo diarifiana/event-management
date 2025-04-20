@@ -1,8 +1,7 @@
-import { Organizer } from "./Organizer";
-import { Location } from "./Location";
-import { Ticket } from "./Ticket";
+import { Category } from "./Category";
+import Organizer from "./Organizer";
+import Ticket from "./Ticket";
 import { Voucher } from "./Voucher";
-import { Category } from "./category";
 
 export interface Event {
   id: number;
