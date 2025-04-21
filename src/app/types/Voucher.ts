@@ -1,12 +1,14 @@
 import { Event } from "./event";
 import { Transaction } from "./Transaction";
 
-export interface Ticket {
+export interface Voucher {
   id: number;
   eventId: number;
   event: Event;
-  ticketType: string;
-  price: number;
+  code: string;
+  discountAmount: number;
+  startDate: Date;
+  endDate: Date;
   qty: number;
   createdAt: Date;
   updatedAt: Date;

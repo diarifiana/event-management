@@ -1,4 +1,4 @@
-import Event from "../types/event";
+import Event from "../types/Event";
 
 export async function getEvents() {
   const data = await fetch("http://localhost:8000/events");
